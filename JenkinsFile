@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-repo.git'
+                git 'https://github.com/Itz-Ezu/week6-OTP1'
             }
         }
         stage('Build') {
